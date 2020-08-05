@@ -2,17 +2,19 @@
 
 Pour insérer le carousel
 
+JS: 
 ```
 let onReady = function () {
-		new Carousel(document.querySelector("#carousel1"), {
+	new Carousel(document.querySelector("#carousel1"), {
 			{options...]
-		});
-	};
+	});
+};
 
-	if (document.readyState !== "loading") {
-		onReady();
-	}
-	document.addEventListener("DOMContentLoaded", onReady);
+if (document.readyState !== "loading") {
+	onReady();
+}
+
+document.addEventListener("DOMContentLoaded", onReady);
 ```
 
 Les options disponibles:
